@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Reinard Harenberg","email":"reinardharenberg@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/kpiClimberChart859D1E662D634F639F9941543DFD7AB0.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"kpiClimberChart","displayName":"kpiClimberChart","guid":"kpiClimberChart859D1E662D634F639F9941543DFD7AB0","visualClassName":"Visual","version":"1.0.0","description":"kpi climber chart","supportUrl":"no thanks","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

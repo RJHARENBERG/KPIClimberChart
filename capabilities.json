@@ -1,0 +1,39 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "id",
+            "name": "id",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "climbers",
+            "name": "climbers",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "climbers text",
+            "name": "climbers text",
+            "kind": "Measure"
+        }
+    ],
+
+    "objects": {},
+
+    "dataViewMappings": [{
+        "table": {
+            "rows": {
+                "select": [
+                    {
+                        "bind": {"to": "id"}
+                    },
+                    {
+                        "bind": {"to": "climbers"}
+                    },
+                    {
+                        "bind": {"to": "climbers text"}
+                    }
+                ]
+            }
+        }
+    }]
+}
